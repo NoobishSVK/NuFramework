@@ -2,4 +2,9 @@
     /* Main neutral colors */
     --nu-bright: #efefef;
     --nu-dark: #111;
+    
+    /* RGB */
+    --nu-red: #d63031;
+    --nu-green: #22e964;
+    --nu-blue: #0984e3;
 }
