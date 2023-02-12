@@ -10,9 +10,9 @@ export class NuElement extends HTMLElement {
       }
       if (name === 'text-gradient') {
         let gradientValue = getComputedStyle(document.body).getPropertyValue(`--${newValue}`);
-        this.shadowRoot.querySelector('.nu-h1').style.setProperty('background', gradientValue);
-        this.shadowRoot.querySelector('.nu-h1').style.setProperty('-webkit-background-clip', 'text');
-        this.shadowRoot.querySelector('.nu-h1').style.setProperty('-webkit-text-fill-color', 'transparent');
+        this.style.setProperty('background', gradientValue);
+        this.style.setProperty('-webkit-background-clip', 'text');
+        this.style.setProperty('-webkit-text-fill-color', 'transparent');
       }
     }
   }

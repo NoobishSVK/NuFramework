@@ -1,7 +1,24 @@
-nu-h1 {
+nu-h1, nu-h2, nu-h3, nu-h4 {
     color: rgb(var(--nu-theme-main));
     text-align: center;
     margin: auto;
+    padding: 0;
     display: inline-block;
-    font-size: 48px;
+
+}
+
+nu-h1 {
+    font-size: 40px;
+}
+
+nu-h2 {
+    font-size: 34px;
+}
+
+nu-h3 {
+    font-size: 28px;
+}
+
+nu-h4 {
+    font-size: 22px;
 }

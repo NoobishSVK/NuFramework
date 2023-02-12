@@ -4,11 +4,13 @@
 body {
     margin: 0 auto;
     background: rgb(var(--nu-theme-bg));
+    color: rgba(var(--nu-theme-main));
     font-family: "Open Sans", sans-serif;
 }
 
 ::selection {
-    background-color: rgba(var(--nu-theme-main), 0.5);
+    color: rgb(var(nu-theme-main));
+    background-color: rgba(var(--nu-theme-main), 0.3);
 }
 
 nu-wrapper {
