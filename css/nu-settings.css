@@ -1,4 +1,4 @@
 :root {
-    --nu-theme-main: #eee; /* MAIN THEME COLOR - for your text elements */
-    --nu-theme-bg: #111; /* BACKGROUND THEME COLOR - for the background */
+    --nu-theme-main: 250,250,250; /* MAIN THEME COLOR - RGB VALUE */
+    --nu-theme-bg: 16,16,16; /* BACKGROUND THEME COLOR - RGB VALUE */
 }

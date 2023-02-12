@@ -7,4 +7,10 @@
     --nu-red: #d63031;
     --nu-green: #22e964;
     --nu-blue: #0984e3;
+
+    /* Gradients */
+    --nu-cinnamint: linear-gradient(to right, #4ac29a, #bdfff3);
+    --nu-sublime-vivid: linear-gradient(to right, #FC466B, #3F5EFB);
+    --nu-wedding-day-blues: linear-gradient(to right, #40E0D0, #FF8C00, #FF0080);
+    --nu-lunada: linear-gradient(to right, #5433FF, #20BDFF, #a5fecb);
 }

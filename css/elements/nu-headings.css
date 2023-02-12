@@ -1,6 +1,7 @@
 nu-h1 {
-    color: var(--nu-theme-main);
+    color: rgb(var(--nu-theme-main));
     text-align: center;
-    width: auto;
+    margin: auto;
+    display: inline-block;
     font-size: 48px;
 }

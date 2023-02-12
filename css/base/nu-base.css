@@ -3,5 +3,16 @@
 
 body {
     margin: 0 auto;
+    background: rgb(var(--nu-theme-bg));
     font-family: "Open Sans", sans-serif;
+}
+
+::selection {
+    background-color: rgba(var(--nu-theme-main), 0.5);
+}
+
+nu-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }

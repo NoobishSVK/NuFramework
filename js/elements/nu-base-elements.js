@@ -1,16 +1,14 @@
-import { NuElement } from './nu-attributes.js';
-
-export class NuHeading1 extends NuElement {
+export class NuWrapper extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({ mode: 'open' });
       this.shadowRoot.innerHTML = `
-        <h1 class="nu-h1">
+        <div class="nu-wrapper">
           <slot></slot>
-        </h1>
+        </div>
       `;
     }
   }
 
   // Custom elements definitions
-  customElements.define('nu-h1', NuHeading1);
+  customElements.define('nu-wrapper', NuWrapper);
