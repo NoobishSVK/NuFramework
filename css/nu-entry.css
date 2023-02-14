@@ -5,6 +5,7 @@
 /* Specific Elements */
 @import "elements/nu-buttons.css";
 @import "elements/nu-headings.css";
+@import "elements/nu-nav.css";
 
 /* Settings - Controllable params */
 @import "nu-settings.css";
